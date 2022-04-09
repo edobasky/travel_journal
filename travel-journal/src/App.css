@@ -1,0 +1,88 @@
+.nav--logo {
+    width: 40px;
+    align-self: center;
+}
+
+nav {
+    background-color: #F55A5A;
+    display: flex;
+    height: 70px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    width: 80vw;
+    max-width: 800px;
+    padding: 0px 36px;
+    margin: 0 auto;
+    justify-content: center;
+    color: #fff; 
+    
+}
+
+.nav--text {
+   font-size: 1.2rem;
+   
+}
+
+/* *********************card section******************* */
+.card {
+    width: 80vw;
+    /* background-color: #F55A5A; */
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 26px 36px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.card--image{
+   max-width: 100%;
+   width: 200px;
+    height: auto;
+    border-radius: 9px;
+}
+
+.card-info {
+    /* background-color: blue; */
+    width: 70%;
+    max-width: 70rem;
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    
+}
+
+.card--icon {
+    width: 12px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+
+.span--location {
+    color: 2B283A;
+    letter-spacing: 0.5rem;
+    text-transform:uppercase;
+    margin-bottom: 0px;
+    font-size: 1.2rem;
+}
+
+.span--link > a {
+    color: #918E9B;
+    
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+}
+
+.span--date {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.card--text {
+    margin-top: 0;
+}
